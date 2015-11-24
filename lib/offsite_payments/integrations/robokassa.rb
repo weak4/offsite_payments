@@ -4,7 +4,7 @@ module OffsitePayments #:nodoc:
     module Robokassa
       # Overwrite this if you want to change the Robokassa test url
       mattr_accessor :test_url
-      self.test_url = 'http://test.robokassa.ru/Index.aspx'
+      self.test_url = 'https://auth.robokassa.ru/Merchant/Index.aspx'
 
       # Overwrite this if you want to change the Robokassa production url
       mattr_accessor :production_url
